@@ -1,0 +1,146 @@
+/* - - - - - - - - - - -
+    GENERAL STYLING 
+- - - - - - - - - - - */
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* - - - - - - - - - - -
+    HEADER STYLING 
+- - - - - - - - - - - */
+#header #logo {
+	margin-top: 20px;	
+}
+
+#header #logo > img {
+	height: 100px;
+}
+
+#header #title > h1, #header #title > h2 {
+	float: right;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 0;
+	color: #2d3c49;
+	transition: 0.5s;
+}
+
+#header #title > h1 {
+	font-size: 60px;
+	font-weight: 300;
+}
+
+#header #title > h2 {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#header hr {
+	border-top: 4px solid #7d97ad;
+}
+
+#header #logo, #header #title {
+	float: left;
+	width: 50%;
+}
+
+/* - - - - - - - - - - -
+    SLIDER STYLING 
+- - - - - - - - - - - */
+#slider img {
+	max-height: 400px;
+	width: 100%;
+}
+
+/* - - - - - - - - - - -
+    FEATURED BOXES
+- - - - - - - - - - - */
+#featured-boxes {
+	margin-top: 20px;
+}
+
+#featured-boxes #title {
+	font-size: 34px;
+	color: #7d97ad;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#featured-boxes h3, #featured-boxes p, #featured-boxes a {
+	text-align: center;
+	color: #2d3c49;
+}
+
+#featured-boxes h3 {
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+#featured-boxes p {
+	font-size: 16px;
+}
+
+#featured-boxes img {
+	width: 100%;
+}
+
+#featured-boxes {
+	margin-bottom: 30px;
+}
+
+/* - - - - - - - - - - -
+    RESPONSIVENESS 
+- - - - - - - - - - - */
+@media screen and (max-width: 991px) {
+	
+	#featured-boxes .col-md-4 {
+		margin-bottom: 50px;
+	}
+}
+
+@media screen and (min-width: 582px) and (max-width: 991px) {
+
+	#header #title > h1 {
+		font-size: 40px;
+	}
+
+}
+
+@media screen and (min-width: 504px) and (max-width: 581px) {
+
+	#header #title > h1 {
+    	font-size: 34px;
+	}
+
+}
+
+@media screen and (min-width: 452px) and (max-width: 503px) {
+
+	#header #title > h1 {
+    	font-size: 30px;
+	}
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 451px) {
+
+	#header #title > h1 {
+    	font-size: 28px;
+	}
+	#header #title > h2 {
+    	font-size: 18px;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+
+	#header #title > h1 {
+    	font-size: 24px;
+	}
+	#header #title > h2 {
+    	font-size: 16px;
+	}
+
+}
